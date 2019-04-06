@@ -1,4 +1,4 @@
-package com.mai.nemcinovr.backend;
+package com.main.nemchinovr.backend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

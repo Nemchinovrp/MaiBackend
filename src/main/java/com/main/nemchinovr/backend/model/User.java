@@ -1,13 +1,19 @@
-package com.mai.nemcinovr.backend.model;
+package com.main.nemchinovr.backend.model;
 
-@Table("Users")
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name = "USERS")
 @Entity
 public class User {
+    @Id
     @Column(name = "id")
     private int id;
-    @Column(name = "id")
+    @Column()
     private String name;
-    @Column(name = "id")
+    @Column()
     private String password;
 
     public User(){}
