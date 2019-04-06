@@ -3,12 +3,15 @@ package com.main.nemchinovr.backend.controllers;
 import com.main.nemchinovr.backend.dao.UserDao;
 import com.main.nemchinovr.backend.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+
 @RestController
+@CrossOrigin
 public class UserController {
     @Autowired
     private UserDao userDao;
@@ -20,6 +23,6 @@ public class UserController {
 
     @GetMapping("all")
     public List<User> getAllUsers() {
-        return (List<User>) userDao.findAll();
+        return userDao.findAll();
     }
 }
