@@ -1,18 +1,19 @@
 package com.main.nemchinovr.backend.model;
 
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "resume_vacancy")
-public class Resume {
+@Table(name = "employee_count_cut")
+public class Dynamic {
     @Id
     @Column
     private int id;
-    @Column(name = "category")
-    private String category;
+    @Column(name="district")
+    private String district;
     @Column(name = "2015")
     private String one;
     @Column(name = "2016")
@@ -23,18 +24,27 @@ public class Resume {
     private String four;
     @Column(name = "2019")
     private String five;
+    @Column(name = "2020")
+    private String six;
+    @Column(name = "2021")
+    private String seven;
+    @Column(name = "2022")
+    private String eight;
 
+    public Dynamic() {
 
-    public Resume() {
     }
 
-    public Resume(String category, String one, String two, String three, String four, String five) {
-        this.category = category;
+    public Dynamic(String district, String one, String two, String three, String four, String five, String six, String seven, String eight) {
+        this.district = district;
         this.one = one;
         this.two = two;
         this.three = three;
         this.four = four;
         this.five = five;
+        this.six = six;
+        this.seven = seven;
+        this.eight = eight;
     }
 
     public int getId() {
@@ -45,12 +55,12 @@ public class Resume {
         this.id = id;
     }
 
-    public String getCategory() {
-        return category;
+    public String getDistrict() {
+        return district;
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void setDistrict(String district) {
+        this.district = district;
     }
 
     public String getOne() {
@@ -91,5 +101,29 @@ public class Resume {
 
     public void setFive(String five) {
         this.five = five;
+    }
+
+    public String getSix() {
+        return six;
+    }
+
+    public void setSix(String six) {
+        this.six = six;
+    }
+
+    public String getSeven() {
+        return seven;
+    }
+
+    public void setSeven(String seven) {
+        this.seven = seven;
+    }
+
+    public String getEight() {
+        return eight;
+    }
+
+    public void setEight(String eight) {
+        this.eight = eight;
     }
 }
