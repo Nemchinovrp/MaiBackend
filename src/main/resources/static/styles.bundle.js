@@ -42,7 +42,7 @@ module.exports = "/*!\n * Bootstrap v4.1.1 (https://getbootstrap.com/)\n * Copyr
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "@import url('https://fonts.googleapis.com/css?family=Lobster');\n@import url('https://fonts.googleapis.com/css?family=Roboto');\nbody {\n  font-family: Roboto, Helvetica, Arial, sans-serif;\n}\n"
+module.exports = "@import url('https://fonts.googleapis.com/css?family=Lobster');\r\n@import url('https://fonts.googleapis.com/css?family=Roboto');\r\nbody {\r\n  font-family: Roboto, Helvetica, Arial, sans-serif;\r\n}\r\n"
 
 /***/ }),
 

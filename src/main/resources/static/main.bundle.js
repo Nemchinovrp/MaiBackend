@@ -60,14 +60,14 @@ var AppRoutingModule = /** @class */ (function () {
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "a {\n    font-family: \"Lobster\", Times, serif;\n    font-size:150%;\n}\n\np {\n  color: white;\n}\n"
+module.exports = "a {\r\n    font-family: \"Lobster\", Times, serif;\r\n    font-size:150%;\r\n}\r\n\r\np {\r\n  color: white;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"text-center\" style=\"margin-top: 50px\"><img src=\"assets/ezgif.com-gif-maker.jpg\"></h1>\n\n\n<div style=\"margin-top: 70px\">\n  <router-outlet></router-outlet>\n</div>\n\n"
+module.exports = "<h1 class=\"text-center\" style=\"margin-top: 50px\"><img src=\"assets/ezgif.com-gif-maker.jpg\"></h1>\r\n\r\n\r\n<div style=\"margin-top: 70px\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -169,14 +169,14 @@ var AppModule = /** @class */ (function () {
 /***/ "./src/app/main/main.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "p {\n  color: white;\n}\n"
+module.exports = "p {\r\n  color: white;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/main/main.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-12\">\n    <div class=\"text-center\">\n      <h3 style=\"margin-top: 20px\">Динамика трудовых ресурсов</h3>\n    </div>\n    <div class=\"row\" style=\"margin-top: 30px\">\n      <div class=\"col-sm-2\"></div>\n      <div class=\"col-sm-8\">\n        <div style=\"text-align: center\">\n          <table class=\"table table-bordered\" style=\"margin-top: 30px; max-width: 1400px\">\n            <thead>\n            <th>Округ</th>\n            <th>2015</th>\n            <th>2016</th>\n            <th>2017</th>\n            <th>2018</th>\n            <th>2019</th>\n            <th>2020</th>\n            <th>2021</th>\n            <th>2022</th>\n            </thead>\n            <tbody>\n            <tr *ngFor=\"let hero of dynamics\">\n              <td>{{hero.district}}</td>\n              <td>{{hero.one}}</td>\n              <td>{{hero.two}}</td>\n              <td>{{hero.three}}</td>\n              <td>{{hero.four}}</td>\n              <td>{{hero.five}}</td>\n              <td>{{hero.six}}</td>\n              <td>{{hero.seven}}</td>\n              <td>{{hero.eight}}</td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n      </div>\n      <div class=\"col-sm-2\"></div>\n    </div>\n\n  </div>\n</div>\n\n<div class=\"row\">\n  <div class=\"col-12\">\n    <div class=\"text-center\">\n      <h3 style=\"margin-top: 30px\">Прогрессивная конверсия вакансий/резюме</h3>\n      <div class=\"row\" style=\"margin-top: 20px\">\n        <div class=\"col-sm-2\"></div>\n        <div class=\"col-sm-8\">\n          <div class=\"text-center\">\n            <table class=\"table table-bordered\" style=\"margin-top: 30px\">\n              <thead>\n              <th>Категория</th>\n              <th>2015</th>\n              <th>2016</th>\n              <th>2017</th>\n              <th>2018</th>\n              <th>2019</th>\n              </thead>\n              <tbody>\n              <tr *ngFor=\"let hero of resumes\">\n                <td>{{hero.category}}</td>\n                <td>{{hero.one}}</td>\n                <td>{{hero.two}}</td>\n                <td>{{hero.three}}</td>\n                <td>{{hero.four}}</td>\n                <td>{{hero.five}}</td>\n              </tr>\n              </tbody>\n            </table>\n          </div>\n        </div>\n        <div class=\"col-sm-2\"></div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\">\r\n  <div class=\"col-12\">\r\n    <div class=\"text-center\">\r\n      <h3 style=\"margin-top: 20px\">Динамика трудовых ресурсов</h3>\r\n    </div>\r\n    <div class=\"row\" style=\"margin-top: 30px\">\r\n      <div class=\"col-sm-2\"></div>\r\n      <div class=\"col-sm-8\">\r\n        <div style=\"text-align: center\">\r\n          <table class=\"table table-bordered\" style=\"margin-top: 30px; max-width: 1400px\">\r\n            <thead>\r\n            <th>Округ</th>\r\n            <th>2015</th>\r\n            <th>2016</th>\r\n            <th>2017</th>\r\n            <th>2018</th>\r\n            <th>2019</th>\r\n            <th>2020</th>\r\n            <th>2021</th>\r\n            <th>2022</th>\r\n            </thead>\r\n            <tbody>\r\n            <tr *ngFor=\"let hero of dynamics\">\r\n              <td>{{hero.district}}</td>\r\n              <td>{{hero.one}}</td>\r\n              <td>{{hero.two}}</td>\r\n              <td>{{hero.three}}</td>\r\n              <td>{{hero.four}}</td>\r\n              <td>{{hero.five}}</td>\r\n              <td>{{hero.six}}</td>\r\n              <td>{{hero.seven}}</td>\r\n              <td>{{hero.eight}}</td>\r\n            </tr>\r\n            </tbody>\r\n          </table>\r\n          <div style=\"margin-top: 100px\"><img src=\"assets/1.png\"  width=\"800\" height=\"350\"></div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-sm-2\"></div>\r\n\r\n    </div>\r\n\r\n  </div>\r\n</div>\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-12\">\r\n    <div class=\"text-center\">\r\n      <h3 style=\"margin-top: 80px\">Прогрессивная конверсия вакансий/резюме</h3>\r\n      <div class=\"row\" style=\"margin-top: 20px\">\r\n        <div class=\"col-sm-2\"></div>\r\n        <div class=\"col-sm-8\">\r\n          <div class=\"text-center\">\r\n            <table class=\"table table-bordered\" style=\"margin-top: 30px\">\r\n              <thead>\r\n              <th>Категория</th>\r\n              <th>2015</th>\r\n              <th>2016</th>\r\n              <th>2017</th>\r\n              <th>2018</th>\r\n              <th>2019</th>\r\n              </thead>\r\n              <tbody>\r\n              <tr *ngFor=\"let hero of resumes\">\r\n                <td>{{hero.category}}</td>\r\n                <td>{{hero.one}}</td>\r\n                <td>{{hero.two}}</td>\r\n                <td>{{hero.three}}</td>\r\n                <td>{{hero.four}}</td>\r\n                <td>{{hero.five}}</td>\r\n              </tr>\r\n              </tbody>\r\n            </table>\r\n            <div style=\"margin-top: 50px\"><img src=\"assets/2.png\"  width=\"1000\" height=\"250\"></div>\r\n\r\n            <div><h3 class=\"text-lg-right\" style=\"margin-top: 50px\">@Гусь и Калашников</h3></div>\r\n          </div>\r\n        </div>\r\n        <div class=\"col-sm-2\"></div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n"
 
 /***/ }),
 
@@ -261,14 +261,14 @@ var MainComponent = /** @class */ (function () {
 /***/ "./src/app/registration/registration.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "p {\n  color: white;\n}\n"
+module.exports = "p {\r\n  color: white;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/registration/registration.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-9 col-md-7 col-lg-5 mx-auto\">\n      <div class=\"card card-signin my-5\">\n        <div class=\"card-body\">\n          <form class=\"form-signin\">\n            <h5 class=\"card-title text-left\">Введите логин</h5>\n            <div class=\"form-label-group\">\n              <input [(ngModel)]=\"name\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" id=\"name\" class=\"form-control\" required autofocus>\n              <label for=\"name\"> </label>\n            </div>\n            <h5 class=\"card-title text-left\">Введите пароль</h5>\n            <div class=\"form-label-group\">\n              <input [(ngModel)]=\"password\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" id=\"password\" class=\"form-control\" required>\n              <label for=\"name\"> </label>\n            </div>\n\n            <button class=\"btn btn-lg btn-primary btn-block text-uppercase\" (click)=\"myEvent()\">Войти</button>\n            <hr class=\"my-4\">\n          </form>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-9 col-md-7 col-lg-5 mx-auto\">\r\n      <div class=\"card card-signin my-5\">\r\n        <div class=\"card-body\">\r\n          <form class=\"form-signin\">\r\n            <h5 class=\"card-title text-left\">Введите логин</h5>\r\n            <div class=\"form-label-group\">\r\n              <input [(ngModel)]=\"name\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" id=\"name\" class=\"form-control\" required autofocus>\r\n              <label for=\"name\"> </label>\r\n            </div>\r\n            <h5 class=\"card-title text-left\">Введите пароль</h5>\r\n            <div class=\"form-label-group\">\r\n              <input [(ngModel)]=\"password\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" id=\"password\" class=\"form-control\" required>\r\n              <label for=\"name\"> </label>\r\n            </div>\r\n\r\n            <button class=\"btn btn-lg btn-primary btn-block text-uppercase\" (click)=\"myEvent()\">Войти</button>\r\n            <hr class=\"my-4\">\r\n          </form>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
