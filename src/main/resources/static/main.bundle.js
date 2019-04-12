@@ -358,7 +358,7 @@ var httpOptions = {
 var CurrencyService = /** @class */ (function () {
     function CurrencyService(http) {
         this.http = http;
-        this.apiUrl = 'http://localhost:8230/currency/all';
+        this.apiUrl = 'http://142.93.91.251:8230/currency/all';
     }
     // Uses http.get() to load data from a single API endpoint
     CurrencyService.prototype.findAll = function () {
@@ -398,7 +398,7 @@ var ResumeService = /** @class */ (function () {
         this.http = http;
     }
     ResumeService.prototype.getResume = function () {
-        return this.http.get('http://localhost:8080/dynamic_all');
+        return this.http.get('http://142.93.91.251:8080/dynamic_all');
     };
     ResumeService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
@@ -475,7 +475,7 @@ var UserService = /** @class */ (function () {
         this.http = http;
     }
     UserService.prototype.getUser = function () {
-        return this.http.get('http://localhost:8080/user');
+        return this.http.get('http://142.93.91.251:8080/user');
     };
     UserService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
@@ -511,7 +511,7 @@ var VacancyService = /** @class */ (function () {
         this.http = http;
     }
     VacancyService.prototype.getVacancy = function () {
-        return this.http.get('http://localhost:8080/resume_all');
+        return this.http.get('http://142.93.91.251:8080/resume_all');
     };
     VacancyService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
