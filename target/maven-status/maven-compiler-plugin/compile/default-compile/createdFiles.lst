@@ -1,0 +1,13 @@
+com\main\nemchinovr\backend\dao\UserDao.class
+com\main\nemchinovr\backend\model\Dynamic.class
+com\main\nemchinovr\backend\dao\DynamicDao.class
+com\main\nemchinovr\backend\dao\ResumeDao.class
+com\main\nemchinovr\backend\controllers\DynamicController.class
+com\main\nemchinovr\backend\model\Vacancy.class
+com\main\nemchinovr\backend\controllers\VacancyController.class
+com\main\nemchinovr\backend\model\User.class
+com\main\nemchinovr\backend\model\Resume.class
+com\main\nemchinovr\backend\dao\VacancyDao.class
+com\main\nemchinovr\backend\BackendApplication.class
+com\main\nemchinovr\backend\controllers\UserController.class
+com\main\nemchinovr\backend\controllers\ResumeController.class
